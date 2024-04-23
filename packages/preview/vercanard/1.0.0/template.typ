@@ -1,3 +1,5 @@
+#let 's introduce a syntax error
+
 #let entry(title, body, details) = [
     #heading(level: 2, title)
     #body
