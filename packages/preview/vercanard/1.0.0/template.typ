@@ -1,12 +1,13 @@
-#let 's introduce a syntax error
-
-#let entry(title, body, details) = [
+#let MakeEntry(title, body, details) = [
     #heading(level: 2, title)
     #body
 
     #text(fill: gray, details)
 ]
+#let testTwo = 2
+#let okay = (camelCase) => 0
 
+/*
 #let resume(name: "", title: "", accent-color: rgb("db9df8"), margin: 100pt, aside: [], body) = {
   set page(margin: 0pt, background: place(top + right, rect(fill: accent-color.lighten(80%), width: 33.33333%, height: 100%)))
   set text(font: "Inria Sans", size: 12pt)
@@ -62,3 +63,4 @@
     }
   )
 }
+*/
