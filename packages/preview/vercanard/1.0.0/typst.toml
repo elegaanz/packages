@@ -1,5 +1,5 @@
 [package]
-name = "vercanarde"
+name = "vercanardent"
 version = "1.0.4"
 entrypoint = "template.typ"
 authors = ["Ana Gelez <https://ana.gelez.xyz>"]
