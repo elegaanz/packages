@@ -3,6 +3,9 @@
 //   _algo-comment-lists
 #let _algo-id-ckey = "_algo-id"
 
+// please check this package
+// hey there
+
 // counter to track the number of lines in an algo element
 #let _algo-line-ckey = "_algo-line"
 
