@@ -49,3 +49,9 @@ jobs:
 
       - name: Test packaging
         run: bundler/target/release/bundler
+      - uses: actions/checkout@v4
+      - uses: typst/package-check@v1
+        with:
+        installation-id: ${{ secrets.GITHUB_INSTALLATION_ID }}
+        app-id: ${{ secrets.GITHUB_APP_ID }}
+        private-key: ${{ secrets.GITHUB_PRIVATE_KEY }}
